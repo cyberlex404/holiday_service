@@ -1,0 +1,14 @@
+{
+  "name": "cyberlex404/holiday_service",
+  "type": "drupal-module-custom",
+  "description": "Holiday service pages",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/holiday_service",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/holiday_service",
+    "source": "http://cgit.drupalcode.org/holiday_service"
+  },
+  "require": { }
+}

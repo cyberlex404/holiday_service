@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains holiday_service.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function holiday_service_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the holiday_service module.
+    case 'help.page.holiday_service':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Holiday service pages') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function holiday_service_theme() {
+  return [
+    'holiday_service' => [
+      'render element' => 'children',
+    ],
+  ];
+}

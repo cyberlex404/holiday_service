@@ -1,0 +1,22 @@
+# Service routing definition
+holiday_service.settings_tab:
+  route_name: holiday_service.settings
+  title: 'Settings'
+  base_route: holiday_service.settings
+
+entity.holiday_service.canonical:
+  route_name: entity.holiday_service.canonical
+  base_route: entity.holiday_service.canonical
+  title: 'View'
+
+entity.holiday_service.edit_form:
+  route_name: entity.holiday_service.edit_form
+  base_route: entity.holiday_service.canonical
+  title: 'Edit'
+
+entity.holiday_service.delete_form:
+  route_name:  entity.holiday_service.delete_form
+  base_route:  entity.holiday_service.canonical
+  title: Delete
+  weight: 10
+

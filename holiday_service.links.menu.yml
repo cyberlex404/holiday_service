@@ -1,0 +1,14 @@
+
+# Service menu items definition
+entity.holiday_service.collection:
+  title: 'Service list'
+  route_name: entity.holiday_service.collection
+  description: 'List Service entities'
+  parent: system.admin_structure
+  weight: 100
+
+holiday_service.admin.structure.settings:
+  title: Service settings
+  description: 'Configure Service entities'
+  route_name: holiday_service.settings
+  parent: system.admin_structure

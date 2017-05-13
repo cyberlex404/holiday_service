@@ -1,0 +1,7 @@
+name: Holiday service
+type: module
+description: Holiday service pages
+core: 8.x
+package: Holiday
+dependencies:
+  - views
